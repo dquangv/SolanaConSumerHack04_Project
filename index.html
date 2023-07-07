@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WiseShare</title>
+  <style>
+    /* CSS styles */
+    .group-box {
+      border: 1px solid black;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .activity-box {
+      border: 1px solid black;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+  </style>
+    <script src="app.js"></script>
+</head>
+<body>
+  <h1>WiseShare</h1>
+
+  <h1>Create Group</h1>
+  <button id="create-group-btn" onclick="createGroup()">Create Group</button>
+  <div id="group-container"></div>
+
+  <h1>Create Group Activity</h1>
+  <button id="create-activity-btn" onclick="createActivity()">Create Activity</button>
+  <div id="activity-container"></div>
+  <p id="GFG_DOWN"></p>
+
+  <!-- <button onclick="createActivity()"> -->
+    <!-- click here -->
+<!-- </button> -->
+
+
+
+
+  <div id="expenses-container">
+    <!-- Placeholder for displaying expenses -->
+  </div>
+
+  <div id="add-expense-form">
+    <h2>Add Expense</h2>
+    <input type="text" id="description-input" placeholder="Description">
+    <input type="number" id="amount-input" placeholder="Amount">
+    <input type="text" id="payer-input" placeholder="Payer">
+    <input type="text" id="participants-input" placeholder="Participants (comma-separated)">
+
+    <button onclick="addExpense()">Add Expense</button>
+  </div>
+
+
+</body>
+</html>
