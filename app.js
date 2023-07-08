@@ -1,3 +1,5 @@
+console.log("Hello world!");
+
 group = null;
 
 class Participant {
